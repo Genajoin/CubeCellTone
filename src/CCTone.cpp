@@ -20,11 +20,13 @@ void CCTone::beep(uint32_t frequency, uint32_t timeout)
     _timeout = millis() + timeout;
 }
 
-void CCTone::checkTimeout(void)
+bool CCTone::checkTimeout(void)
 {
-    if (millis() > _timeout)
+    bool res = millis() > _timeout;
+    if (!res)
     {
         analogWrite(_pwm_pin, 0);
         _timeout = 0xFFFFFFFF;
     }
+    return res;
 }

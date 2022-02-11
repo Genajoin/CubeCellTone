@@ -11,7 +11,7 @@ public:
     //------------------------------- Public functions -----------------------------------//
 
     void beep(uint32_t frequency, uint32_t timeout);
-    void checkTimeout(void);
+    bool checkTimeout(void);
     //------------------------------- Public variables -----------------------------------//
 private:
     uint8_t _pwm_pin;
