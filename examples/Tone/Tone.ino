@@ -2,10 +2,13 @@
 
 CCTone beeper(PWM2);
 
-void setup() {
-  beeper.beep(1000, 5000);
+void setup()
+{
 }
 
-void loop() {  
-  beeper.checkTimeout();
+void loop()
+{
+  if (beeper.checkInProgress())
+    return;
+  beeper.beep(1000, 5000, 1000);
 }
