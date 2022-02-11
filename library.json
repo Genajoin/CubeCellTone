@@ -1,0 +1,24 @@
+{
+  "name": "CCTone",
+  "version": "1.0.0",
+  "description": "Beep by PWM on CubeCell",
+  "keywords": "PWM, tone, beeper",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/Genajoin/CubeCellTone.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Evgeny Istomin",
+      "email": "gena@regimov.net",
+      "url": "https://regimov.net"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+  },
+  "frameworks": "*",
+  "platforms": "*"
+}
