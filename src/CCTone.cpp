@@ -14,7 +14,7 @@ void CCTone::beep(uint32_t frequency, uint32_t timeout)
         return;
     }
     uint16_t period = 12000000UL / frequency;
-    uint16_t duty = a >> 1;
+    uint16_t duty = period >> 1;
     setPWM_ComparePeriod(period); // period
     analogWrite(_pwm_pin, duty);  // duty cycle 50%
     _timeout = millis() + timeout;

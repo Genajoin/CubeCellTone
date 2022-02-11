@@ -1,6 +1,6 @@
 {
   "name": "CCTone",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Beep by PWM on CubeCell",
   "keywords": "PWM, tone, beeper",
   "repository":
