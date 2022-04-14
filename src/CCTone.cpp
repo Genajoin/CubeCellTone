@@ -3,6 +3,11 @@
 CCTone::CCTone(uint8_t pwmPin)
 {
     _pwm_pin = pwmPin;
+    init();
+}
+
+void CCTone::init()
+{
     pinMode(_pwm_pin, OUTPUT);
     setPWM_Frequency(PWM_CLK_FREQ_24M);
 }

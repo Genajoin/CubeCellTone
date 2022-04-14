@@ -9,7 +9,7 @@ public:
     //------------------------------------ Constructor ------------------------------------//
     CCTone(uint8_t pwmPin);
     //------------------------------- Public functions -----------------------------------//
-
+    void init();
     void beep(int16_t frequency, int16_t timeout, int16_t pause);
     bool checkInProgress(void);
     //------------------------------- Public variables -----------------------------------//
