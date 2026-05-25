@@ -53,3 +53,12 @@ Tested on Heltec CubeCell boards (HTCC-AB01, HTCC-AB02) with passive piezo buzze
 ## Author
 
 Evgeny Istomin · gena@regimov.net
+
+---
+
+## Hire me
+
+I take on commercial engineering work through **[Alpisto d.o.o.](https://alpisto.eu)** (Slovenia, EU) — MATLAB → Python migrations, power-systems algorithms, embedded BLE/RTOS firmware, and IoT backends.
+
+→ [alpisto.eu/matlab-to-python](https://alpisto.eu/matlab-to-python) · **gena@alpisto.eu** · [LinkedIn](https://www.linkedin.com/in/evgenyistomin/)
+
